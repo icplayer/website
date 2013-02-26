@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>icplayer example content</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Krzysztof Langner">
+
+    <!-- Le styles -->
+    <link href="/media/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/media/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+  	<script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script src="/media/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="/media/favicon.png">
+    
+    <script type="text/javascript" language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" language="javascript" src="/media/icplayer/icplayer.nocache.js"></script>
+    
+    <script language="javascript">
+		var player;
+      	function icOnAppLoaded(){
+	        // Load assessment
+    	    player = icCreatePlayer('_icplayer');
+	        player.load('/content/demo1/lesson.ic.xml');
+      	}
+    </script>
+    
+    <script type="text/javascript"
+  		src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+	</script>
+    
+</head>
+
+<body>
+	<div class="navbar navbar-fixed-top">
+   		<div class="navbar-inner">
+     		<div class="container">
+       		<a class="brand" href="/">icplayer.com</a>
+		</div>
+	</div>
+
+	<div class="container" style="margin-top:1em">
+    	<h1>Demo lesson with single page and text module</h1>
+		
+		<div id="_icplayer"></div>
+			     	
+		<hr/>
+		<div class="footer">
+	        <p>
+	        	<a href="https://github.com/icplayer/icplayer">Find us on github.com</a>
+	        </p>
+	      </div>
+		</div>
+	</div>
+
+  </body>
+</html>

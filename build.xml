@@ -1,0 +1,25 @@
+<project name="website-icplayer" default="dist">
+
+	<property name="icplayer.war" location="../icplayer/war" />
+	<property name="src" location="./src"/>
+	<property name="dist" location="./dist"/>
+
+	<target name="copy">
+		<mkdir dir="${dist}"/>
+		<copy todir="${dist}">
+		    <fileset dir="${src}"/>
+		</copy>
+		<copy todir="${dist}/media/icplayer">
+		    <fileset dir="${icplayer.war}/icplayer"/>
+		</copy>
+
+	</target>
+
+	<target name="dist" depends="clean, copy">
+	</target>
+
+	<target name="clean">
+		<delete dir="${dist}" />
+	</target>
+	
+</project>
