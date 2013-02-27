@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?> 
 <interactiveContent>
 <pages>
-	<page name="text" href="text.page.xml"/>
+	<page name="text" href="page1.xml"/>
 </pages>
 
 </interactiveContent>
