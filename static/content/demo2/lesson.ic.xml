@@ -9,13 +9,13 @@ background-image:none;
 }
 
 .ic_button_gotopage{
-background-image:url('/file/serve/204002');
+background-image:url('media/204002.png');
 cursor: pointer;
 background-repeat:no-repeat;
 }
 
 .button_gotopage2{
-background-image:url('/file/serve/204003');
+background-image:url('media/204003.png');
 cursor: pointer;
 background-repeat:no-repeat;
 background-position:center;
@@ -127,59 +127,59 @@ border: 2px solid red;
 }
 
 .ic_button_check{
-background-image:url('/file/serve/119038');
+background-image:url('media/119038.png');
 }
 
 .ic_button_check-up-hovering{
-background-image:url('/file/serve/116043');
+background-image:url('media/116043.png');
 }
 
 .ic_button_check-down-hovering{
-background-image:url('/file/serve/119039');
+background-image:url('media/119039.png');
 }
 
 .ic_button_uncheck{
-background-image: url('/file/serve/116044');
+background-image: url('media/116044.png');
 }
 
 .ic_button_reset{
-background-image:url('/file/serve/122026');
+background-image:url('media/122026.png');
 }
 
 .ic_button_reset-up-hovering{
-background-image:url('/file/serve/121036');
+background-image:url('media/121036.png');
 }
 
 .ic_button_reset-down-hovering{
-background-image:url('/file/serve/118058');
+background-image:url('media/118058.png');
 }
 
 .ic_button_nextpage{
-background-image:url('/file/serve/117040');
+background-image:url('media/117040.png');
 background-repeat:no-repeat;
 background-position:center;
 }
 
 .ic_button_nextpage-up-hovering{
-background-image:url('/file/serve/117041');
+background-image:url('media/117041.png');
 }
 
 .ic_button_nextpage-down-hovering{
-background-image:url('/file/serve/123001');
+background-image:url('media/123001.png');
 }
 
 .ic_button_prevpage{
-background-image:url('/file/serve/121039');
+background-image:url('media/121039.png');
 background-repeat:no-repeat;
 background-position:center;
 }
 
 .ic_button_prevpage-up-hovering{
-background-image:url('/file/serve/117042');
+background-image:url('media/117042.png');
 }
 
 .ic_button_prevpage-down-hovering{
-background-image:url('/file/serve/118062');
+background-image:url('media/118062.png');
 }
 
 .ic_pageprogress{
@@ -225,25 +225,25 @@ padding-left: 19px;
 
 .ic_option-wrong {
 padding-left: 19px;
-background-image: url('/file/serve/77022');
+background-image: url('media/77022.png');
 background-repeat: no-repeat;
 }
 
 .ic_option-correct {
-background-image: url('/file/serve/79016');
+background-image: url('media/79016.png');
 background-repeat: no-repeat;
 padding-left: 19px;
 }
 
 .ic_gap-wrong {
 padding-left: 19px;
-background-image: url('/file/serve/77022');
+background-image: url('media/77022.png');
 background-repeat: no-repeat;
 }
 
 .ic_gap-correct {
 padding-left: 19px;
-background-image: url('/file/serve/79016');
+background-image: url('media/79016.png');
 background-repeat: no-repeat;
 }
 
