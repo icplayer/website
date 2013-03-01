@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<page layout='pixels' width='640' height='480'>
+
+	<modules>
+		<addonModule addonId='YouTube_Addon' left='10' top='10' width='620' height='460' isVisible='true' style=' '>
+			<properties>
+				<property name='HTTPS' type='boolean' value=''/>
+				<property name='ID' type='string' value=''/>
+				<property name='URL' type='string' value='http://youtu.be/ly0UFbY7Gcw'/>
+			</properties>
+		</addonModule>
+	</modules>
+</page>
