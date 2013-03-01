@@ -1,4 +1,4 @@
-<project name="website-icplayer" default="dist">
+<project name="website-icplayer" default="copy">
 
 	<property name="icplayer.war" location="../icplayer/war" />
 	<property name="static" location="./static"/>

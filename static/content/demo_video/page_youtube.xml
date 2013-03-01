@@ -2,7 +2,10 @@
 <page layout='pixels' width='640' height='480'>
 
 	<modules>
-		<addonModule addonId='YouTube_Addon' left='10' top='10' width='620' height='460' isVisible='true' style=' '>
+		<textModule left="20" top="5" width="620" height="30">
+			<text>YoutTube video</text>
+		</textModule>
+		<addonModule addonId='YouTube_Addon' left='10' top='40' width='620' height='440' isVisible='true' style=' '>
 			<properties>
 				<property name='HTTPS' type='boolean' value=''/>
 				<property name='ID' type='string' value=''/>

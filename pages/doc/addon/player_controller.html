@@ -1,0 +1,188 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Player Controller</h1>
+
+<p>
+	PlayerController can be used to call function on player runtime
+</p>
+
+<h3>PlayerController type</h3>
+<table class="table table-bordered">
+    <tr>
+        <th>Function</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>getPresentation()</td>
+        <td>Return object which represents presentation. This object implements several functions related to accessing presentation and its pages.
+        </td>
+    </tr>
+    <tr>
+        <td>getCurrentPageIndex()</td>
+        <td>Return index of current page.</td>
+    </tr>
+    <tr>
+        <td>getCommands()</td>
+        <td>Return object which implements different commands you can call from your Addon.</td>
+    </tr>
+    <tr>
+        <td>getEventBus()</td>
+        <td>Return object which implements event bus.</td>
+    </tr>
+    <tr>
+        <td>getScore()</td>
+        <td>Return object which implements commands for accessing player score.</td>
+    </tr>
+    <tr>
+        <td>getModule(moduleID)</td>
+        <td>Return module presenter based on the given ID.</td>
+    </tr>
+    <tr>
+        <td>getTextParser()</td>
+        <td>Return object which parser for text elements like definition links.</td>
+    </tr>
+</table>
+
+    
+<h3>Presentation type</h3>
+<table class="table table-bordered">
+    <tr>
+        <th>Function</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>getPageCount()</td>
+        <td>Return number of pages.</td>
+    </tr>
+    <tr>
+        <td>getPage(index)</td>
+        <td>Return page at given index.</td>
+    </tr>
+</table>
+    
+<h3>Page type</h3>
+<table class="table table-bordered">
+    <tr>
+        <th>Function</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>getName()</td>
+        <td>Return page name.</td>
+    </tr>
+    <tr>
+        <td>getBaseURL()</td>
+        <td>Return page base URL with slash '/' at the end.</td>
+    </tr>
+</table>
+
+    
+<h3>Commands type</h3>
+<table class="table table-bordered">
+    <tr>
+        <th>Function</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>executeEventCode(code)</td>
+        <td>Send script code to be executed by player</td>
+    </tr>
+    <tr>
+        <td>gotoPage(name)</td>
+        <td>Go to page with given name.</td>
+    </tr>
+    <tr>
+        <td>getTimeElapsed()</td>
+        <td>Returns time in seconds elapsed form the start of the lesson session.</td>
+    </tr>
+</table>
+    
+
+<h3>EventBus</h3>
+<table class="table table-bordered">
+    <tr>
+        <th>Function</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>addEventListener(event_name, listener)</td>
+        <td>Register listener for specific event. Listener is object which implements:
+                 onEventReceived(eventName, eventData) function.
+                 <br/>
+                 <ul>
+                      <li> eventName - event name</li>
+                      <li> eventData - array with event data</li>
+                  </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>sendEvent('ItemSelected', data);</td>
+        <td>Send event
+                 <br/>
+                 <ul>
+                      <li> eventName - event name</li>
+                      <li> eventData - array with event data</li>
+                  </ul>
+        </td>
+    </tr>
+</table>
+    
+
+<h3>Score</h3>
+<table class="table table-bordered">
+    <tr>
+        <th>Function</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>getMaxScore()</td>
+        <td>
+         Return max score for the whole presentation
+        </td>
+    </tr>
+    <tr>
+        <td>getTotalScore()</td>
+        <td>
+          Return score calculated for all opened pages.
+        </td>
+    </tr>
+    <tr>
+        <td>getPageScore(pageName)</td>
+        <td>
+          Return score for given page. The score is hashmap with values:
+              <ul>
+                 <li>score - actual score</li>
+                 <li>maxScore - max page score</li>
+                 <li>checkCount - how many times check was pressed on this page</li>
+                 <li>mistakeCount - total number of shown errors</li>
+        </td>
+    </tr>
+</table>
+    
+                                             
+                                          
+<h3>TextParser</h3>
+<table class="table table-bordered">
+    <tr>
+        <th>Function</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>parse(text)</td>
+        <td>
+         Parse given text and replace definition \def{word} with links
+        </td>
+    </tr>
+    <tr>
+        <td>connectLinks(element);</td>
+        <td>
+          Connect all definition links to event bus. Link will send Definition event.
+        </td>
+    </tr>
+</table>
+    
+                                             
+                                                     
+{% endblock %}

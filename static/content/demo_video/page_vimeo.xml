@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<page layout='pixels' width='640' height='480'>
+
+	<modules>
+		<textModule left="20" top="5" width="620" height="30">
+			<text>Vimeo video</text>
+		</textModule>
+		<addonModule addonId='Vimeo' left='10' top='40' width='620' height='440' isVisible='true' style=' '>
+			<properties>
+				<property name='movie id' type='string' value='60763684'/>
+			</properties>
+		</addonModule>
+	</modules>
+</page>

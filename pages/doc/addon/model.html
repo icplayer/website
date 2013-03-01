@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<h1>Addon model file</h1>
+   	
+   	<p>
+	<b>addon.xml</b> contains information about addon and its model.
+	<p>
+	
+	<h3>Basic xml file</h3>
+<pre class="prettyprint">
+&lt;?xml version=&apos;1.0&apos; encoding=&apos;UTF-8&apos; ?&gt;
+&lt;addon id=&apos;AddonId&apos;&gt;
+    &lt;model&gt;
+        &lt;property name=&apos;HTTPS&apos; type=&apos;boolean&apos;/&gt;
+        &lt;property name=&apos;ID&apos; type=&apos;string&apos;/&gt;
+        &lt;property name=&apos;URL&apos; type=&apos;string&apos;/&gt;
+    &lt;/model&gt;
+&lt;/addon&gt;
+</pre>
+
+	<p>Where:</p>
+	<ul>
+		<li><b>AddonId</b> should be the same id as used to create addon folder</li>
+		<li>Model defines properties visible in the editor</li>
+	</ul>
+	
+	<h3>Property types</h3>
+	
+	<table class="table table-bordered">
+	    <tr>
+	        <th>Type name</th>
+	        <th>Editor type</th> 
+	        <th>Value</th>
+	    </tr>
+	    <tr>
+	        <td>audio</td>
+	        <td>Audio editor. Allows selecting or uploading audios</td> 
+	        <td>Audio URL</td>
+	    </tr>
+	    <tr>
+	        <td>boolean</td>
+	        <td>Editor with checkbox for true/false values</td> 
+	        <td>'True' or 'False' as string</td>
+	    </tr>
+	    <tr>
+	        <td>event</td>
+	        <td>Code editor</td> 
+	        <td>Event code</td>
+	    </tr>
+	    <tr>
+	        <td>file</td>
+	        <td>Upload editor. Allows uploading custom file</td> 
+	        <td>Uploaded file URL</td>
+	    </tr>
+	    <tr>
+	        <td>html</td>
+	        <td>HTML editor</td> 
+	        <td>HTML</td>
+	    </tr>
+	    <tr>
+	        <td>image</td>
+	        <td>Image editor. Allows selecting or uploading images</td> 
+	        <td>Image URL</td>
+	    </tr>
+	    <tr>
+	        <td>list</td>
+	        <td>List editor</td> 
+	        <td>
+	             Array with list elements. 
+	             Each element is hashmap with property name and value. 
+	        </td>
+	    </tr>
+	    <tr>
+	        <td>narration</td>
+	        <td>Multiline text editor without formatting</td> 
+	        <td>Narration for recorded audio</td>
+	    </tr>
+	    <tr>
+	        <td>string</td>
+	        <td>TextArea editor</td> 
+	        <td>Text</td>
+	    </tr>
+	    <tr>
+	        <td>text</td>
+	        <td>Multiline text editor without formatting</td> 
+	        <td>Text</td>
+	    </tr>
+	    <tr>
+	        <td>option A, option B, option C</td>
+	        <td>Combo box with list of options</td> 
+	        <td>Selected in combo option by name</td>
+	    </tr>
+	</table>
+
+{% endblock %}

@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<h1>Create addon</h1>
+   	
+   	<p>
+   	Addons are used to extend the functionality of the player by providing new module types.
+   	You can find source code for all addons under 
+   	<a href="https://github.com/icplayer/icplayer/tree/master/addons">/addons</a> folder.
+   	</p>
+   	 
+   	<p>
+   	Addons step by step:
+   	</p> 
+   	 
+   	<h4>Step 1. Create folder for your addon</h4>
+   	
+   	<p>
+   	Lets say that you want to create addon with the name <b>MyAddon</b>.
+   	First step is to create directory:
+   	<br/>
+   	<b></b>&lt;icplayer&gt;/addons/MyAddon</b>
+   	</p>
+   	<p>And then create <b>src</b> subfolder.
+   	
+   	<h4>Step 2. Create addon files</h4>
+   	
+   	<p>Addon consists of:</p>
+   	<ul>
+   		<li>
+   			<b>addon.xml</b>  XML file which describes <a href="/doc/addon/model.html">addon model</a> 
+   			and metadata
+   		</li>
+   		<li>
+   			<b>presenter.js</b>  Javascript file which implements 
+   			<a href="/doc/addon/presenter.html">addon functionality</a>
+   		</li>
+   		<li><b>view.html</b>  HTML view used in the player</li>
+   		<li><b>preview.html</b>  HTML preview used in the editor</li>
+   		<li><b>style.css</b>  CSS styles used by addon.</li>
+   	</ul>
+   	
+   	<h4>Step 3. Register addon in ant build system</h4>
+   	<p>
+   		Add task to build this addon in
+   		<a href="https://github.com/icplayer/icplayer/blob/master/build.xml">
+   		Addon ant build.xml
+   		</a>
+   	</p>
+	<p>
+   		<code>&lt;copyAddon src="${src}" dest="${dest}" addon="AddonId"/&gt;</code>
+   	</p>
+   		
+   	
+   	<h4>Step 4. Register addon in player</h4>
+   	<p>
+   		To register addon in the player (and editor). Modify
+   		<a href="https://github.com/icplayer/icplayer/blob/master/src/main/java/com/lorepo/icplayer/client/model/AddonDescriptorFactory.java">
+   			AddonDescriptorFactory
+   		</a>
+	</p>
+	<p>
+   		<code>addDescriptor("MyAddonId", "Addon name", "Editor menu group")</code>
+   	</p>
+   	
+   	<h4>Step 5. Build player</h4>
+   	<p>
+   	Now when you build player, your new addon will be added to player distribution
+   	</p>
+   		
+{% endblock %}

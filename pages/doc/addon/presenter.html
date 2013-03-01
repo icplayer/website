@@ -1,0 +1,120 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Presenter</h1>
+
+<p>Minimal presenter code:</p>
+
+<pre class="prettyprint">
+function AddonDemo_create(){
+
+    var presenter = function(){}
+
+    presenter.run = function(view, model){
+    }
+
+    return presenter;
+}
+</pre>
+
+
+<h3>Required functions</h3> 
+<table class="table table-bordered">
+    <tr>
+        <th>Function</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>run(view, model)</td>
+        <td>
+            Initialize the addon when a module is loaded. 
+            <ul>
+                <li>view - DOM reference with addon view code loaded</li>
+                <li>model - Array with property values</li>
+            </ul>
+        </td> 
+    </tr>
+</table>
+
+      
+<h3>Editor functions</h3>
+<table class="table table-bordered">
+    <tr>
+        <th>Function</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>createPreview(view, model)</td>
+        <td>
+            Used by the presentation editor to create preview in the editor's mode. 
+            <ul>
+                <li>view - DOM reference with addon's view code loaded</li>
+                <li>model - Array with property values</li>
+            </ul>
+        </td> 
+    </tr>
+</table>
+
+
+<h3>Optional functions</h3>
+<table class="table table-bordered">
+    <tr>
+        <th>Function</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>executeCommand(commandName, params)</td>
+        <td>Execute command with given *name* and *params*</td>
+    </tr>
+    <tr>
+        <td>setShowErrorsMode()</td>
+        <td>Addon should mark all errors and disable all interaction</td>
+    </tr>
+    <tr>
+        <td>setWorkMode()</td>
+        <td>Return to normal mode.</td>
+    </tr>
+    <tr>
+        <td>reset()</td>
+        <td>Return module to initial state</td>
+    </tr>
+    <tr>
+        <td>getErrorCount()</td>
+        <td>Return current number of errors</td>
+    </tr>
+    <tr>
+        <td>getMaxScore()</td>
+        <td>Get maximum score for this module</td>
+    </tr>
+    <tr>
+        <td>getScore()</td>
+        <td>Get current score</td>
+    </tr>
+    <tr>
+        <td>getState()</td>
+        <td>Return state (as String) which should be preserved while switching between pages. </td>
+    </tr>
+    <tr>
+        <td>setState(state)</td>
+        <td>Return to previously saved state.</td>
+    </tr>
+</table>
+     
+
+<h3>Player Controller</h3>
+
+<p>
+If you want to access player functions from the addon, 
+you have to implement the following function:
+</p>
+<pre class="prettyprint">
+    presenter.setPlayerController = function(controller){
+    }
+</pre>
+<p>
+	The object <b>controller</b> is type 
+	<a href="/doc/addon/player_controller.html">Player Controller</a>
+</p>
+     
+{% endblock %}
