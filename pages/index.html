@@ -1,25 +1,28 @@
 {% extends "base.html" %}
 
 {% block content %}
-	<div class="">
-       	<h1>Welcome to icplayer demos</h1>
-       	<p>
-       		icplayer is player for interactive lessons. 
-       		It is is open sourced and hosted on <a href="https://github.com/icplayer/icplayer">github.com</a>
-       	</p> 
-       	
-       	<div style="margin-top:1em"></div>
-       	<h4>Documentation</h4>
-       	<ul>
-       		<li><a href="/doc/create_addon.html">Create addon</a></li>
-       	</ul> 
-       	
-       	<div style="margin-top:1em"></div>
-       	<h4>Example lessons</h4>
-       	<ul>
-       		<li><a href="/demo/demo1.html">Single page with text module</a></li>
-       		<li><a href="/demo/demo2.html">Ordering activity demo</a></li>
-       		<li><a href="/demo/video.html">Video demo</a></li>
-       	</ul> 
-     </div>
+	<div class="row-fluid well">
+		<div class="span8">
+	       	<h1>icplayer project site</h1>
+	       	<h4 style="margin-top:2em">icplayer is</h4>
+	       	<ul>
+	       		<li>
+	       			Open source HTML5 player for interactive lessons
+	       		</li>
+	       		<li>
+	       			Supports many different activity types
+	       		</li>
+	       		<li>Works in any browser and on any devices (PC, tables and phones)</li>
+	       		<li>You can get <a href="http://mauthor.com">buy professional support and editor</a> for it</li> 
+	       	</ul> 
+	       	
+	       	<div style="margin-top:2em"></div>
+		       	<a href="/doc" class="btn btn-primary btn-large">Documentation</a>
+		       	<a href="/demo" class="btn btn-warning btn-large">Examples</a>
+		    </div
+		</div>
+		<div class="span4">
+			<img src="{{STATIC_URL}}/images/welcome.jpg"/>
+		</div>
+	</div>
 {% endblock %}

@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+  	<h1>Embedding player - saving and restoring lesson state</h1>
+<pre class="prettyprint">
+    var player;
+    function icOnAppLoaded(){
+        player = icCreatePlayer(&apos;_icplayer&apos;);
+        // Write state to player before loading content
+        player.setState(state);
+        player.load(&apos;content/default.ic.xml&apos;);
+    }
+    
+    // Read state from player
+    var state = player.getState();
+</pre>
+
+	<h4>Remarks</h4>
+	<ol>
+		<li>State should be loaded before content.</li>
+		<li>You can get player state any time.</li>
+	</ol>
+{% endblock %}

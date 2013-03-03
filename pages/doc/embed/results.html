@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+  	<h1>Embedding player - Getting lesson results</h1>
+<pre class="prettyprint">
+    var player;
+    function icOnAppLoaded(){
+        player = icCreatePlayer(&apos;_icplayer&apos;);
+        player.load(&apos;content/default.ic.xml&apos;);
+    }
+    
+    var ps = player.getPlayerServices();
+</pre>
+
+	<h4>Remarks</h4>
+	<ol>
+		<li>
+			Check also <a href="/doc/addon/player_services.html">PlayerService</a> functions.
+			Especially section with score functions.
+		</li>
+	</ol>
+{% endblock %}
