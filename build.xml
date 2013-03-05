@@ -11,7 +11,8 @@
 		<copy todir="${static}/icplayer">
 		    <fileset dir="${icplayer.war}/icplayer"/>
 		</copy>
-
+		<mkdir dir="${static}/dist"/>
+		<copy file="../icplayer/dist/icplayer.zip" tofile="${static}/dist/icplayer.zip"/>
 	</target>
 
 	<target name="clean">
