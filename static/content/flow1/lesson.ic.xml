@@ -312,9 +312,9 @@ color: #706f6f;
 	<folder name="commons">
 		<page name="footer" href="footer.xml"/>
 	</folder>
- 	
 	<footer ref="commons/footer"/>
 </pages>
+
 <assets>
 	<asset href="media/chess.jpeg" type="image"/>
 </assets>

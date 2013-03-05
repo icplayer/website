@@ -1,0 +1,116 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<page layout="pixels">
+    <modules>
+        <choiceModule id="9riTEd" left="163" top="159" width="127" height="242" style="font-size:15px  ">
+            <options>
+                <option value="0">
+                    <text>bread</text>
+                    <feedback/>
+                </option>
+                <option value="0">
+                    <text>bun</text>
+                    <feedback/>
+                </option>
+                <option value="0">
+                    <text>roll</text>
+                    <feedback/>
+                </option>
+                <option value="1">
+                    <text>orange</text>
+                    <feedback/>
+                </option>
+            </options>
+        </choiceModule>
+        <choiceModule id="bv65UE" left="426" top="159" width="127" height="242" style="font-size:15px  ">
+            <options>
+                <option value="1">
+                    <text>drink</text>
+                    <feedback/>
+                </option>
+                <option value="0">
+                    <text>steamed</text>
+                    <feedback/>
+                </option>
+                <option value="0">
+                    <text>boiled</text>
+                    <feedback/>
+                </option>
+                <option value="0">
+                    <text>roast</text>
+                    <feedback/>
+                </option>
+            </options>
+        </choiceModule>
+        <textModule id="ngz5Td" left="180" top="88" width="232" height="38" style="" class="text1">
+            <text>&lt;font style="font-family: Arial;" size="3"&gt;Mark the odd word out.&lt;/font&gt;&lt;br&gt;</text>
+        </textModule>
+        <choiceModule id="qfVT6C" left="298" top="159" width="127" height="242" style="font-size:15px  ">
+            <options>
+                <option value="0">
+                    <text>plate</text>
+                    <feedback/>
+                </option>
+                <option value="0">
+                    <text>spoon</text>
+                    <feedback/>
+                </option>
+                <option value="1">
+                    <text>napkin</text>
+                    <feedback/>
+                </option>
+                <option value="0">
+                    <text>fork</text>
+                    <feedback/>
+                </option>
+            </options>
+        </choiceModule>
+        <choiceModule id="O537zU" left="561" top="159" width="127" height="242" style="font-size:15px  ">
+            <options>
+                <option value="0">
+                    <text>cabbage</text>
+                    <feedback/>
+                </option>
+                <option value="1">
+                    <text>spicy</text>
+                    <feedback/>
+                </option>
+                <option value="0">
+                    <text>broccoli</text>
+                    <feedback/>
+                </option>
+                <option value="0">
+                    <text>cucumber</text>
+                    <feedback/>
+                </option>
+            </options>
+        </choiceModule>
+        <textModule id="XvHUZY" left="120" top="0" width="609" height="22" style="" class="title">
+            <text>&lt;font style="font-family: Verdana;" size="4"&gt;&lt;span style="font-weight: bold;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Food&lt;/span&gt; - Sweet or Savoury?&lt;/font&gt;</text>
+        </textModule>
+        <shapeModule id="meaHzS" left="-37" top="0" width="172" height="550" style="" class="box1"/>
+        <textModule id="Cyc2Jo" left="7" top="11" width="112" height="27" style="" class="text2">
+            <text>&lt;div style="text-align: center;"&gt;&lt;span class="Apple-style-span" style="font-family: Verdana; font-size: large; "&gt;Task 4&lt;/span&gt;&lt;/div&gt;</text>
+        </textModule>
+        <textModule id="HqV2ct" left="52" top="60" width="30" height="27" style="" class="text-nr">
+            <text>&lt;div style="text-align: center;"&gt;&lt;font style="font-family: Georgia; font-weight: bold;" size="4"&gt;8/9&lt;/font&gt;&lt;br&gt;&lt;/div&gt;</text>
+        </textModule>
+        <buttonModule id="1deoWK" left="90" top="55" width="37" height="38" style="">
+            <button type="nextPage" text="" onclick=""/>
+        </buttonModule>
+        <buttonModule id="awm1aQ" left="7" top="55" width="37" height="38" style="">
+            <button type="prevPage" text="" onclick=""/>
+        </buttonModule>
+        <buttonModule id="SMDjLl" left="82" top="484" width="37" height="38" style="">
+            <button type="reset" text="" onclick=""/>
+        </buttonModule>
+        <buttonModule id="OEq4Y1" left="7" top="484" width="37" height="38" style="">
+            <button type="checkAnswers" text="" onclick=""/>
+        </buttonModule>
+        <shapeModule id="VWb823" left="292" top="159" width="0" height="192" style="" class="linia"/>
+        <shapeModule id="z4HKfD" left="420" top="159" width="0" height="192" style="" class="linia"/>
+        <shapeModule id="qzuxJn" left="562" top="159" width="0" height="192" style="" class="linia"/>
+    </modules>
+</page>
+

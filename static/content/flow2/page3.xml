@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page layout="flow">
+    <modules>
+        <textModule id="pgq6Xn" left="120" top="0" width="609" height="22" style="" class="title">
+            <text>&lt;font style="font-family: Verdana;" size="4"&gt;&lt;span style="font-weight: bold;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Food&lt;/span&gt; - Sweet or Savoury?&lt;/font&gt;</text>
+        </textModule>
+        <textModule id="EHa7ns" left="172" top="82" width="525" height="33" style="" class="text1">
+            <text>&lt;font style="font-family: Arial;" size="3"&gt;Read the 6 questions underneath and match them to the answers.&lt;/font&gt;</text>
+        </textModule>
+        <textModule id="XlJefd" left="172" top="93" width="510" height="341" style="line-height: 22px;">
+            <text>&lt;font size="2"&gt;&lt;/font&gt;&lt;br&gt;&lt;ol style="font-family: Arial;"&gt;&lt;li&gt;&lt;font size="3"&gt;Is food pleasure for you?&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size="3"&gt;What do you usually eat in a typical day?&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size="3"&gt;Do you ever cook?&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size="3"&gt;Do you ever eat unhealthy food? How do you feel about it?&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size="3"&gt;Are you trying to cut down on anything at the moment?&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size="3"&gt;Are people's diets in your country getting better or worse?&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;</text>
+        </textModule>
+        <textModule id="0E5IXl" left="427" top="467" width="172" height="22" style="" class="text-nr">
+            <text>&lt;font size="3"&gt;&lt;span style="font-family: Arial;"&gt;Continued on next page&lt;/span&gt;&lt;/font&gt;</text>
+        </textModule>
+    </modules>
+</page>
+

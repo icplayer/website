@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page layout="flow">
+    <modules>
+        <textModule id="4BTikh" left="120" top="0" width="609" height="22" style="" class="title">
+            <text>&lt;font style="font-family: Verdana;" size="4"&gt;&lt;span style="font-weight: bold;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Food&lt;/span&gt; - Sweet or Savoury?&lt;/font&gt;</text>
+        </textModule>
+        <textModule id="FKo5vJ" left="142" top="61" width="593" height="477" style="line-height: 22px;" class="gap2">
+            <text>&lt;ol&gt;&lt;li&gt;&lt;font style="font-family: Arial;" size="3"&gt;&lt;span style="font-weight: bold;"&gt;&lt;/span&gt;{{1:6}} I think people are trying to improve their diets, but they're doing&lt;br&gt;it the wrong way by following diets that cut out entire groups&lt;br&gt;of products&lt;/font&gt;&lt;font style="font-family: Arial;" size="3"&gt; like carbohydrates.&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style="font-family: Arial;" size="3"&gt;{{1:3}} Yes, I cook every evening for my family. I really enjoy it.&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style="font-family: Arial;" size="3"&gt;&lt;span style="font-weight: bold;"&gt;&lt;/span&gt;{{1:4}} Sometimes I eat French fries — I have to admit that I love them!&lt;br&gt;I don't think too much about it afterwards.&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style="font-family: Arial;" size="3"&gt;&lt;span style="font-weight: bold;"&gt;&lt;/span&gt;{{1:1}}&amp;nbsp; For breakfast I like hot chocolate, a bowl of cereal or toast.&lt;br&gt;For lunch, I often order a takeway — Sushi, spaghetti or salad.&lt;br&gt;In the evening, I have a proper meal with my family.&lt;br&gt;Sometimes we eat out in a fancy restaurant.&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style="font-family: Arial;" size="3"&gt;&lt;span style="font-weight: bold;"&gt;&lt;/span&gt;{{1:5}} I'm trying to cut down on chocolate, eat more wholemeal&lt;br&gt;bread and drink more water.&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style="font-family: Arial;" size="3"&gt;&lt;span style="font-weight: bold;"&gt;&lt;/span&gt;{{1:1}} Yes, definitely. I enjoy the time I spend eating with my family.&lt;br&gt;If I lived alone, I'd probably end up heating up ready-made dishes&lt;br&gt;in the microwave.&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;br&gt;</text>
+        </textModule>
+    </modules>
+</page>
+

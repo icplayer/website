@@ -2,6 +2,8 @@
 
 {% block content %}
 	<h1>Examples</h1>
+	
+	<h3 style="margin-top:1em">Absolute layout</h3>
 	<div class="row">
 		<ul class="thumbnails">
 	  		<li class="span3">
@@ -28,6 +30,12 @@
 					</p>
 	    		</a>
 	  		</li>
+	  	</ul>
+	</div>
+	
+	<h3 style="margin-top:1em">Flow layout</h3>
+	<div class="row">
+		<ul class="thumbnails">
 	  		<li class="span3">
     			<a href="/demo/flow1.html" class="thumbnail">
 					<img src="{{STATIC_URL}}/images/chess.png"/>
@@ -36,10 +44,18 @@
 					</p>
 	    		</a>
 	  		</li>
+	  		<li class="span3">
+    			<a href="/demo/flow2.html" class="thumbnail">
+					<img src="{{STATIC_URL}}/content/flow2/media/food.png"/>
+					<p style="text-align:center;margin-top:1em">
+						Food flow layout
+					</p>
+	    		</a>
+	  		</li>
 	  	</ul>
 	</div>
 	
-	<h2>External examples</h2>
+	<h3 style="margin-top:1em">External examples</h3>
 	<ul>
 		<li><a href="http://www.mauthor.com/embed/1009048">Circles and Inscribed Polygons</a>
 		<li><a href="http://www.mauthor.com/embed/1008049">Friction</a>

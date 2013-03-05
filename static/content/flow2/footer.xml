@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<page layout="pixels" height="60">
+
+	<modules>
+		
+		<buttonModule left='3' top='3' width='50' height='50'>
+			<button type='prevPage' text='' onclick=''/>
+		</buttonModule>
+		<buttonModule id='Button1' left='550' top='3' width='50' height='50'>
+			<button type='checkAnswers' text='' onclick=''/>
+		</buttonModule>
+		<buttonModule id='Button2' left='610' top='3' width='50' height='50'>
+			<button type='reset' text='' onclick=''/>
+		</buttonModule>
+		<buttonModule left='690' top='3' width='50' height='50'>
+			<button type='nextPage' text='' onclick=''/>
+		</buttonModule>
+		
+	</modules>
+
+</page>

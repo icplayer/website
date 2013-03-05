@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page layout="pixels">
+    <modules>
+        <imageModule id="PaxcKy" left="0" top="0" width="750" height="550" style="">
+            <image src="../resources/78035.png"/>
+        </imageModule>
+        <textModule id="9LsUFu" left="121" top="0" width="609" height="22" style="" class="title">
+            <text>&lt;div style="text-align: left;"&gt;&lt;font style="font-family: Verdana;" size="4"&gt;&lt;span style="font-weight: bold;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Food&lt;/span&gt; - Sweet or Savoury?&lt;/font&gt;&lt;/div&gt;</text>
+        </textModule>
+        <shapeModule id="xaywVh" left="-37" top="0" width="172" height="550" style="" class="box1"/>
+        <textModule id="K4wZbm" left="52" top="60" width="30" height="27" style="" class="text-nr">
+            <text>&lt;div style="text-align: center;"&gt;&lt;font style="font-family: Georgia; font-weight: bold;" size="4"&gt;9/9&lt;/font&gt;&lt;/div&gt;</text>
+        </textModule>
+        <buttonModule id="dL8wr6" left="7" top="55" width="37" height="38" style="">
+            <button type="prevPage" text="" onclick=""/>
+        </buttonModule>
+        <textModule id="1DioOg" left="142" top="99" width="600" height="44" style="" class="text-nr">
+            <text>&lt;div style="text-align: center;"&gt;&lt;font size="4"&gt;&lt;span id="result_box" class="" lang="en"&gt;&lt;font style="font-family: Arial;" size="5"&gt;&lt;span style="font-family: Georgia;" class="hps"&gt;Thank you for&lt;/span&gt;&lt;span style="font-family: Georgia;"&gt; &lt;/span&gt;&lt;span style="font-family: Georgia;" class="hps"&gt;using our&lt;/span&gt;&lt;span style="font-family: Georgia;"&gt; &lt;/span&gt;&lt;span class="hps"&gt;&lt;span style="font-family: Georgia;"&gt;presentation.&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;</text>
+        </textModule>
+        <textModule id="xFHfDN" left="142" top="148" width="600" height="132" style="line-height: 24px;" class="text-nr">
+            <text>&lt;div style="text-align: center;"&gt;&lt;font style="font-family: Georgia;" size="4"&gt;&lt;span id="result_box" class="" lang="en"&gt;&lt;span class="hps"&gt;We&lt;/span&gt; are happy&lt;span class="hps"&gt; to invite&lt;/span&gt; &lt;span class="hps"&gt;you to take advantage&lt;/span&gt; &lt;span class="hps"&gt;of&lt;/span&gt;&lt;span class="hps"&gt;&lt;/span&gt;&lt;span class="hps"&gt; the rest&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;font style="font-family: Georgia;" size="4"&gt;&lt;span id="result_box" class="" lang="en"&gt;&lt;span class="hps"&gt; of our &lt;/span&gt;&lt;span class="hps"&gt;educational materials.&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;</text>
+        </textModule>
+    </modules>
+</page>
+

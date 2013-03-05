@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page layout="flow" width="0" height="0">
+    <modules>
+        <textModule id="Z7IIcp" left="120" top="0" width="609" height="22" class="title">
+            <text draggable="false">
+	            &lt;div style="text-align: left;"&gt;&lt;font style="font-family: Verdana;" size="4"&gt;&lt;span style="font-weight: bold;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Food&lt;/span&gt; - Sweet or Savoury?&lt;/font&gt;&lt;/div&gt;
+            </text>
+        </textModule>
+        <textModule id="dnZ72y" left="165" top="82" width="577" height="49" class="text-nr">
+            <text draggable="false">
+            &lt;div style="text-align: center;"&gt;&lt;div style="text-align: left;"&gt;&lt;font style="font-family: Georgia;" size="5"&gt;By experiencing this presentation you will be able to:&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div style="text-align: left;"&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;
+            </text>
+        </textModule>
+        <textModule id="3m5BIr" left="142" top="138" width="600" height="214" style="line-height:130%" class="text-nr">
+            <text draggable="false">
+            &lt;ul style="font-family: Georgia;"&gt;&lt;li&gt;&lt;font size="4"&gt;expand your vocabulary related to food, drink &lt;br&gt;and kitchen utensils&lt;br&gt;
+                  &lt;br&gt;
+                &lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size="4"&gt;describe dishes and their ingredients&lt;br&gt;
+                  &lt;br&gt;
+                &lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size="4"&gt;understand a menu in an English-speaking country&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;
+        	</text>
+    	</textModule>
+	</modules>
+</page>
+

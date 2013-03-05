@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page layout="pixels">
+    <modules>
+        <textModule id="V2Ux5p" left="435" top="478" width="172" height="22" style="" class="text-nr">
+            <text>&lt;font size="3"&gt;&lt;span style="font-family: Arial;"&gt;Continued on next page&lt;/span&gt;&lt;/font&gt;</text>
+        </textModule>
+        <buttonModule id="d2zjSj" left="438" top="477" width="202" height="22" style="background-position :right;border:0px solid silver;padding-top:5px;">
+            <button type="nextPage" text="" onclick=""/>
+        </buttonModule>
+        <textModule id="uybBGg" left="172" top="82" width="517" height="55" style="" class="text1">
+            <text>&lt;font style="font-family: Arial;" size="3"&gt;Read the two descriptions of dishes and choose the right ingredients &lt;br&gt;from the drop-down lists.&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;</text>
+        </textModule>
+        <textModule id="OP16FA" left="428" top="170" width="300" height="269" style="line-height: 24px;">
+            <text>&lt;font style="font-family: Arial;" size="3"&gt;Sushi is a Japanese dish. &lt;br&gt;It is made from specially 
+            prepared {{1:rice | pasta | noodles}} and seaweed wraps &lt;br&gt;called Nori. 
+            Sushi is very healthy &lt;br&gt;as it usually contains raw or smoked&lt;br&gt; {{1:fish | 
+            butter | meatloaf}} and vegetables,&lt;br&gt;like {{1:cucumber | banana | 
+            oranges}} or {{1:avocado | pineapple | banana}}. &lt;br&gt;Sushi is served with 
+            soya sauce &lt;br&gt;and wasabi.&lt;/font&gt;&lt;br&gt;</text>
+        </textModule>
+        <imageModule id="ahgOY0" left="180" top="170" width="225" height="209" style="border:3px solid orange;">
+            <image src="../resources/74022.jpg"/>
+        </imageModule>
+        <textModule id="nbhlFM" left="120" top="0" width="609" height="22" style="" class="title">
+            <text>&lt;font style="font-family: Verdana;" size="4"&gt;&lt;span style="font-weight: bold;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Food&lt;/span&gt; - Sweet or Savoury?&lt;/font&gt;</text>
+        </textModule>
+        <shapeModule id="c05SnR" left="-37" top="0" width="172" height="550" style="" class="box1"/>
+        <textModule id="PdCcXs" left="7" top="11" width="112" height="27" style="" class="text2">
+            <text>&lt;div style="text-align: center;"&gt;&lt;span class="Apple-style-span" style="font-family: Verdana; font-size: large; "&gt;Task 3.a.&lt;/span&gt;&lt;/div&gt;</text>
+        </textModule>
+        <textModule id="gNlkGG" left="52" top="60" width="30" height="27" style="" class="text-nr">
+            <text>&lt;div style="text-align: center;"&gt;&lt;font style="font-family: Georgia; font-weight: bold;" size="4"&gt;6/9&lt;/font&gt;&lt;br&gt;&lt;/div&gt;</text>
+        </textModule>
+        <buttonModule id="uftrnf" left="90" top="55" width="37" height="38" style="">
+            <button type="nextPage" text="" onclick=""/>
+        </buttonModule>
+        <buttonModule id="JvRG6y" left="7" top="55" width="37" height="38" style="">
+            <button type="prevPage" text="" onclick=""/>
+        </buttonModule>
+        <buttonModule id="mf18EF" left="7" top="484" width="37" height="38" style="">
+            <button type="checkAnswers" text="" onclick=""/>
+        </buttonModule>
+        <buttonModule id="TZD4Ct" left="82" top="484" width="37" height="38" style="">
+            <button type="reset" text="" onclick=""/>
+        </buttonModule>
+    </modules>
+</page>
+

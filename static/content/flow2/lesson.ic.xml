@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interactiveContent>
+    <metadata/>
+    <addons/>
+    <style>.ic_page{
+    width: 750px;
+    height: 550px;
+    background-color:#fef6ed;
+    background-image:none;
+    }
+    
+	.ic_flowPage{
+		padding: 10px;
+	}
+	
+	.ic_module{
+		margin-bottom: 10px;
+	}
+
+	ul, ol {
+	    margin: 0 0 10px 25px;
+	    padding: 0;
+	}
+    .title {
+    padding:13px;
+    background-color:#f99d3e;
+    color:rgb(255,255,255)}
+    
+    .box1{
+    background-color:#fcd2a2;
+    border-radius: 15px;
+    }
+    
+    .text1 {
+    color:rgb(95,95,95);
+    }
+    
+    .text2 {
+    color:rgb(238,103,4);
+    }
+    
+    .text-nr {
+    color:rgb(238,103,4);
+    }
+    
+    .rama2{
+    background-color:#fff0c2 ;
+    padding: 25px;
+    border-radius: 7px;
+    }
+    
+    .linia{
+    background-color:#a8a8a8 ;
+    padding: 0px;
+    border-radius: 0px;
+    }
+    
+    .ic_button_check {
+    background-image:url('media/74037.png');
+    }
+    
+    .ic_button_check-up-hovering{
+    background-image:url('media/73034.png');
+    }
+    
+    .ic_button_check-down-hovering{
+    background-image:url('media/79038.png');
+    }
+    
+    .ic_button_uncheck{
+    background-image: url('media/76038.png');
+    }
+    
+    .ic_button_reset{
+    background-image:url('media/76039.png');
+    }
+    
+    .ic_button_reset-up-hovering{
+    background-image:url('media/81001.png');
+    }
+    
+    .ic_button_reset-down-hovering{
+    background-image:url('media/72030.png');
+    }
+    
+    .ic_button_nextpage{
+    background-image	:url('media/77042.png');
+    background-repeat	:no-repeat;
+    background-position	:center;
+    }
+    
+    .ic_button_nextpage-up-hovering{
+    background-image:url('media/72031.png');
+    }
+    
+    .ic_button_nextpage-down-hovering{
+    background-image:url('media/77043.png');
+    }
+    
+    .custom_button_nextpage{
+    background-image	:url('media/76034.png');
+    background-repeat	:no-repeat;
+    background-position	:center;
+    }
+    
+    .custom_button_nextpage-up-hovering{
+    background-image	:url('media/78031.png');
+    }
+    
+    .custom_button_nextpage-down-hovering{
+    background-image	:url('media/73029.png');
+    }
+    
+    .ic_button_prevpage{
+    background-image	:url('media/78034.png');
+    background-repeat	:no-repeat;
+    background-position	:center;
+    }
+    
+    .ic_button_prevpage-up-hovering{
+    background-image:url('media/74038.png');
+    }
+    
+    .ic_button_prevpage-down-hovering{
+    background-image:url('media/76040.png');
+    }
+    
+    .ic_button_prevpage-up-disabled{
+    	background: none;
+    	cursor: default;
+    }
+    
+    .ic_button_nextpage-up-disabled{
+    	background: none;
+    	cursor: default;
+    }
+    
+    .ic_option-neutral {
+    padding-left: 19px;
+    }
+    
+    .ic_option-wrong {
+    padding-left: 19px;
+    background-image: url('media/77022.png');
+    background-repeat: no-repeat;
+    }
+    
+    .ic_option-correct {
+        background-image: url('media/79016.png');
+        background-repeat: no-repeat;
+        padding-left: 19px;
+    }
+    
+    .ic_gap-wrong {
+    padding-left: 19px;
+    background-image: url('media/77022.png');
+    background-repeat: no-repeat;
+    }
+    
+    .ic_gap-correct {
+    padding-left: 19px;
+    background-image: url('media/79016.png');
+    background-repeat: no-repeat;
+    }
+    
+    .gap1 input {
+    width: 128px;
+    }
+    
+    .gap2 input {
+    width: 30px;
+    }
+    
+</style>
+<pages>
+    <page href="page1.xml" name="page 1/9" reportable="true"/>
+    <page href="page2.xml" name="page 2" reportable="true"/>
+    <page href="page3.xml" name="page 3" reportable="true"/>
+    <page href="page4.xml" name="page 4" reportable="true"/>
+    <!-- 
+    <page href="1975009.xml" name="page 5" reportable="true"/>
+    <page href="1967019.xml" name="page 6" reportable="true"/>
+    <page href="1974022.xml" name="page 7" reportable="true"/>
+    <page href="1966012.xml" name="page 8" reportable="true"/>
+    <page href="1980011.xml" name="new 9/9" reportable="true"/>
+     -->
+	<folder name="commons">
+		<page name="footer" href="footer.xml"/>
+	</folder>
+	<footer ref="commons/footer"/>
+</pages>
+<assets>
+    <asset href="media/74022.jpg" type="image"/>
+    <asset href="media/78013.gif" type="image"/>
+    <asset href="media/78017.jpg" type="image"/>
+    <asset href="media/73017.jpg" type="image"/>
+    <asset href="media/76023.jpg" type="image"/>
+    <asset href="media/76024.jpg" type="image"/>
+    <asset href="media/78018.jpg" type="image"/>
+    <asset href="media/77026.JPG" type="image"/>
+    <asset href="media/79037.png" type="image"/>
+    <asset href="media/74037.png" type="image"/>
+    <asset href="media/73034.png" type="image"/>
+    <asset href="media/79038.png" type="image"/>
+    <asset href="media/76038.png" type="image"/>
+    <asset href="media/81001.png" type="image"/>
+    <asset href="media/78033.png" type="image"/>
+    <asset href="media/76039.png" type="image"/>
+    <asset href="media/72030.png" type="image"/>
+    <asset href="media/77042.png" type="image"/>
+    <asset href="media/72031.png" type="image"/>
+    <asset href="media/77043.png" type="image"/>
+    <asset href="media/78034.png" type="image"/>
+    <asset href="media/74038.png" type="image"/>
+    <asset href="media/77044.png" type="image"/>
+    <asset href="media/76040.png" type="image"/>
+    <asset href="media/81002.png" type="image"/>
+    <asset href="media/78035.png" type="image"/>
+</assets>
+</interactiveContent>
+

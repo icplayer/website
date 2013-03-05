@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page layout="pixels">
+    <modules>
+        <textModule id="Y3DRZY" left="300" top="396" width="412" height="121" style="line-height: 24px;">
+            <text>&lt;font style="font-family: Arial;" size="3"&gt;This is an Italian dish called Lasagne. &lt;br&gt;It has {{1:pasta | bread | coffee}} in it, with ground {{1:beef | sausage | potatoes}}, &lt;br&gt;tomato sauce, vegetables like {{1:pepper | strawberry | prawns}} &lt;br&gt;and {{1:cheese | rice | noodles}} on top.&lt;/font&gt;&lt;br&gt;</text>
+        </textModule>
+        <imageModule id="aBjkrT" left="300" top="82" width="300" height="291" style="border:3px solid orange;">
+            <image src="../resources/78013.gif"/>
+        </imageModule>
+        <textModule id="RSf063" left="120" top="0" width="609" height="22" style="" class="title">
+            <text>&lt;font style="font-family: Verdana;" size="4"&gt;&lt;span style="font-weight: bold;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Food&lt;/span&gt; - Sweet or Savoury?&lt;/font&gt;</text>
+        </textModule>
+        <shapeModule id="tBGSV3" left="-37" top="0" width="172" height="550" style="" class="box1"/>
+        <textModule id="HyZQM4" left="7" top="11" width="112" height="27" style="" class="text2">
+            <text>&lt;div style="text-align: center;"&gt;&lt;span class="Apple-style-span" style="font-family: Verdana; font-size: large; "&gt;Task 3.b.&lt;/span&gt;&lt;/div&gt;</text>
+        </textModule>
+        <textModule id="FXnRAm" left="52" top="60" width="30" height="27" style="" class="text-nr">
+            <text>&lt;div style="text-align: center;"&gt;&lt;font style="font-family: Georgia; font-weight: bold;" size="4"&gt;7/9&lt;/font&gt;&lt;br&gt;&lt;/div&gt;</text>
+        </textModule>
+        <buttonModule id="Xtsgpg" left="90" top="55" width="37" height="38" style="">
+            <button type="nextPage" text="" onclick=""/>
+        </buttonModule>
+        <buttonModule id="3D1tLJ" left="7" top="55" width="37" height="38" style="">
+            <button type="prevPage" text="" onclick=""/>
+        </buttonModule>
+        <buttonModule id="ZoVyHZ" left="7" top="484" width="37" height="38" style="">
+            <button type="checkAnswers" text="" onclick=""/>
+        </buttonModule>
+        <buttonModule id="TsGYkl" left="82" top="484" width="37" height="38" style="">
+            <button type="reset" text="" onclick=""/>
+        </buttonModule>
+    </modules>
+</page>
+

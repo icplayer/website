@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page layout="flow">
+    <modules>
+        <textModule id="NBT72l" left="120" top="0" width="609" height="22" style="" class="title">
+            <text>&lt;span style="text-decoration: underline;"&gt;&lt;/span&gt;&lt;font style="font-family: Verdana;" size="4"&gt;&lt;span style="font-weight: bold;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Food&lt;/span&gt; - Sweet or Savoury?&lt;/font&gt;&lt;br&gt;&lt;br&gt;</text>
+        </textModule>
+        <textModule id="7qOJCe" left="7" top="11" width="112" height="27" style="" class="text2">
+            <text>
+            	&lt;div style="text-align: center;"&gt;
+            		&lt;span style="font-family: Verdana; font-size: large;"&gt;Introduction&lt;/span&gt;
+            	&lt;/div&gt;
+            </text>
+        </textModule>
+        <textModule id="JBl5Ap" left="172" top="82" width="337" height="33" style="" class="text1">
+            <text>
+            &lt;font size="3"&gt;&lt;span style="font-family: Arial;"&gt;What food can you see in the pictures below? &lt;/span&gt;&lt;/font&gt;</text>
+        </textModule>
+        
+        <imageModule id="mxuKI7" left="172" top="137" width="127" height="110" style="border:3px solid orange;">
+            <image src="media/78017.jpg"/>
+        </imageModule>
+        <textModule id="CeS3b5" left="172" top="264" width="165" height="27" style="" class="gap1">
+            <text>&lt;div style="text-align: left;"&gt;{{1:soup}}&lt;br&gt;&lt;/div&gt;</text>
+        </textModule>
+
+        <imageModule id="M2tSD0" left="375" top="137" width="127" height="110" style="border:3px solid orange;">
+            <image src="media/73017.jpg"/>
+        </imageModule>
+        <textModule id="F5SxJh" left="375" top="264" width="165" height="27" style="" class="gap1">
+            <text>&lt;div style="text-align: left;"&gt;{{1:steak}}&lt;br&gt;&lt;/div&gt;</text>
+        </textModule>
+
+        <imageModule id="tLZlc2" left="577" top="137" width="127" height="110" style="border:3px solid orange;">
+            <image src="media/76023.jpg"/>
+        </imageModule>
+        <textModule id="2jIh67" left="577" top="258" width="157" height="27" style="" class="gap1">
+            <text>&lt;div style="text-align: left;"&gt;{{1:vegetables}}&lt;br&gt;&lt;/div&gt;</text>
+        </textModule>
+
+        <imageModule id="TRiRFT" left="172" top="335" width="127" height="110" style="border:3px solid orange;">
+            <image src="media/76024.jpg"/>
+        </imageModule>
+        <textModule id="NKxdBV" left="172" top="462" width="172" height="27" style="" class="gap1">
+            <text>&lt;div style="text-align: left;"&gt;{{1:prawns}}&lt;br&gt;&lt;/div&gt;</text>
+        </textModule>
+
+        <imageModule id="7e61ES" left="375" top="335" width="127" height="110" style="border:3px solid orange;">
+            <image src="media/78018.jpg"/>
+        </imageModule>
+        <textModule id="QXqvZC" left="375" top="462" width="165" height="27" style="" class="gap1">
+            <text>&lt;div style="text-align: left;"&gt;{{1:wine}}&lt;br&gt;&lt;/div&gt;</text>
+        </textModule>
+        <imageModule id="YT166z" left="577" top="335" width="127" height="110" style="border:3px solid orange;">
+            <image src="media/77026.JPG"/>
+        </imageModule>
+        <textModule id="xY9Vui" left="577" top="462" width="157" height="27" style="" class="gap1">
+            <text>&lt;div style="text-align: left;"&gt;{{1:blue cheese}}&lt;br&gt;&lt;/div&gt;</text>
+        </textModule>
+    </modules>
+</page>
+
