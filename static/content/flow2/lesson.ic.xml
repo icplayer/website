@@ -176,7 +176,6 @@
     <page href="page1.xml" name="page 1/9" reportable="true"/>
     <page href="page2.xml" name="page 2" reportable="true"/>
     <page href="page3.xml" name="page 3" reportable="true"/>
-    <page href="page4.xml" name="page 4" reportable="true"/>
     <!-- 
     <page href="1975009.xml" name="page 5" reportable="true"/>
     <page href="1967019.xml" name="page 6" reportable="true"/>
