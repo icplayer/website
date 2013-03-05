@@ -15,6 +15,9 @@
         &lt;property name=&apos;HTTPS&apos; type=&apos;boolean&apos;/&gt;
         &lt;property name=&apos;ID&apos; type=&apos;string&apos;/&gt;
         &lt;property name=&apos;URL&apos; type=&apos;string&apos;/&gt;
+        &lt;property name=&apos;Items&apos; type=&apos;list&apos;&gt;
+            &lt;property name=&apos;Name&apos; type=&apos;string&apos;/&gt;
+        &lt;/property&gt;
     &lt;/model&gt;
 &lt;/addon&gt;
 </pre>
@@ -67,8 +70,7 @@
 	        <td>list</td>
 	        <td>List editor</td> 
 	        <td>
-	             Array with list elements. 
-	             Each element is hashmap with property name and value. 
+	             List with records consisting of sub properties  
 	        </td>
 	    </tr>
 	    <tr>
