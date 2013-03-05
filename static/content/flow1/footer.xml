@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<page layout="pixels" height="60">
+
+	<modules>
+		
+		<buttonModule id='Button1' left='630' top='3' width='50' height='50'>
+			<button type='checkAnswers' text='' onclick=''/>
+		</buttonModule>
+
+		<buttonModule id='Button2' left='690' top='3' width='50' height='50'>
+			<button type='reset' text='' onclick=''/>
+		</buttonModule>
+		
+	</modules>
+
+</page>

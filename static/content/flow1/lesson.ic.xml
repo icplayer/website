@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interactiveContent>
+<style>
+.ic_page{
+width: 750px;
+height: 600px;
+background: #ffffff;
+background-image:none;
+}
+
+.ic_flowPage{
+	padding: 10px;
+}
+
+.ic_module{
+	margin-bottom: 10px;
+}
+
+.ic_button_gotopage{
+background-image:url('media/204002.png');
+cursor: pointer;
+background-repeat:no-repeat;
+}
+
+.button_gotopage2{
+background-image:url('media/204003.png');
+cursor: pointer;
+background-repeat:no-repeat;
+background-position:center;
+}
+
+.text_Title{
+font-size: 30px;
+color: #e85019;
+font-family: Verdana, Arial;
+}
+
+.text_pageTitle{
+font-family: Verdana;
+font-size: 22px;
+color: #706f6f;
+}
+
+.text_exerciseText{
+padding:18px;
+border: 1px solid #989797;
+border-radius: 4px;
+color: #403f3f;
+font-family: Verdana;
+font-size: 17px;
+}
+
+.text_paragraphText{
+padding:18px;
+border: 1px solid #989797;
+border-radius: 4px;
+color: #706f6f;
+font-family: Verdana;
+font-size: 17px;
+}
+
+.choice_frames{
+}
+
+.choice_frames .ic_soption{
+line-height: 35px;
+border: 1px solid #f69400;
+font-size: 17px;
+color: #717171;
+height: 50px;
+border-radius: 4px;
+}
+
+.choice_frames{
+}
+
+.choice_frames .ic_moption{
+border: 1px solid #f69400;
+line-height: 33px;
+font-size: 17px;
+color: #717171;
+height: 50px;
+border-radius: 4px;
+}
+
+.image_picture{
+padding:7px;
+border: 1px solid #989797;
+border-radius: 4px;
+}
+
+.shape_redSquare{
+background-color: #e85019;
+border-radius: 3px;
+}
+
+.shape_orangeSquare{
+background-color: #f69400;
+border-radius: 3px;
+}
+
+.shape_graySquare{
+background-color: #7b7b7b;
+border-radius: 3px;
+}
+
+.ic_ordering{
+cursor: pointer;
+}
+
+.ic_ordering-item{
+margin: 5px;
+padding: 4px;
+border: 2px solid #f69400;
+border-radius: 3px;
+background-color: #f69400;
+font-size: 16px;
+color: #ffffff;
+font-family: Verdana;
+height: 18px;
+line-height: 95%;
+}
+
+.ic_drag-source{
+background-color: #3abd0f;
+border: 2px solid #3abd0f;
+}
+
+.ic_ordering-item-correct{
+border: 2px solid green;
+}
+
+.ic_ordering-item-wrong{
+border: 2px solid red;
+}
+
+.ic_button_check{
+background-image:url('media/119038.png');
+}
+
+.ic_button_check-up-hovering{
+background-image:url('media/116043.png');
+}
+
+.ic_button_check-down-hovering{
+background-image:url('media/119039.png');
+}
+
+.ic_button_uncheck{
+background-image: url('media/116044.png');
+}
+
+.ic_button_reset{
+background-image:url('media/122026.png');
+}
+
+.ic_button_reset-up-hovering{
+background-image:url('media/121036.png');
+}
+
+.ic_button_reset-down-hovering{
+background-image:url('media/118058.png');
+}
+
+.ic_button_nextpage{
+background-image:url('media/117040.png');
+background-repeat:no-repeat;
+background-position:center;
+}
+
+.ic_button_nextpage-up-hovering{
+background-image:url('media/117041.png');
+}
+
+.ic_button_nextpage-down-hovering{
+background-image:url('media/123001.png');
+}
+
+.ic_button_prevpage{
+background-image:url('media/121039.png');
+background-repeat:no-repeat;
+background-position:center;
+}
+
+.ic_button_prevpage-up-hovering{
+background-image:url('media/117042.png');
+}
+
+.ic_button_prevpage-down-hovering{
+background-image:url('media/118062.png');
+}
+
+.ic_pageprogress{
+border-radius: 4px;
+border: 2px solid #e85019;
+padding: 2px;
+}
+
+.ic_pageprogress .ic_progress-text{
+line-height: 24px;
+font-family: Arial;
+font-size: 18px;
+text-align: center;
+color: #706f6f;
+}
+
+.ic_pageprogress .ic_progress-bar{
+background-color: #f8ba41;
+border-radius: 4px;
+}
+
+.errorcounter{
+line-height: 27px;
+font-family: Arial;
+font-size: 17px;
+padding: 2px;
+border-radius: 4px;
+border: 2px solid #128700;
+}
+
+.checkcounter{
+line-height: 27px;
+font-family: Arial;
+font-size: 17px;
+padding: 2px;
+border-radius: 4px;
+border: 2px solid #128700;
+}
+
+.ic_option-neutral {
+padding-left: 19px;
+}
+
+.ic_option-wrong {
+padding-left: 19px;
+background-image: url('media/77022.png');
+background-repeat: no-repeat;
+}
+
+.ic_option-correct {
+background-image: url('media/79016.png');
+background-repeat: no-repeat;
+padding-left: 19px;
+}
+
+.ic_gap-wrong {
+padding-left: 19px;
+background-image: url('media/77022.png');
+background-repeat: no-repeat;
+}
+
+.ic_gap-correct {
+padding-left: 19px;
+background-image: url('media/79016.png');
+background-repeat: no-repeat;
+}
+
+.text_gap{
+}
+
+.text_gap input {
+height: 15px;
+width: 108px;
+}
+
+.ic_report{
+padding: 10px;
+border-radius: 4px;
+border: 1px solid gray;
+background-color:white;
+color:gray;
+}
+
+.ic_report td{
+padding: 10px;
+}
+
+.ic_report-header{
+font-weight: bold;
+color: black;
+}
+
+.ic_report-odd{
+background-color: #f5f6f6;
+}
+
+.ic_report-even{
+background-color: #edefef;
+}
+
+.ic_report .ic_progress{
+border-radius: 4px;
+border: 2px solid #e85019;
+padding: 2px;
+}
+
+.ic_report .ic_progress-bar{
+background-color: #f8ba41;
+border-radius: 4px;
+}
+
+.ic_report .ic_progress-text{
+line-height: 23px;
+font-family: Arial;
+font-size: 18px;
+color: #706f6f;
+}
+</style>
+
+<pages>
+	<page href="page1.xml" name="Page 1" reportable="true"/>
+	<folder name="commons">
+		<page name="footer" href="footer.xml"/>
+	</folder>
+ 	
+	<footer ref="commons/footer"/>
+</pages>
+<assets>
+	<asset href="media/chess.jpeg" type="image"/>
+</assets>
+</interactiveContent>
