@@ -5,7 +5,7 @@
    	
    	<p>
    	Addons are used to extend the functionality of the player by providing new module types.
-   	You can find source code for all addons under 
+   	You can find the source code for all addons under 
    	<a href="https://github.com/icplayer/icplayer/tree/master/addons">/addons</a> folder.
    	</p>
    	 
@@ -16,33 +16,33 @@
    	<h4>Step 1. Create folder for your addon</h4>
    	
    	<p>
-   	Lets say that you want to create addon with the name <b>MyAddon</b>.
-   	First step is to create directory:
+   	Lets say that you want to create an addon named <b>MyAddon</b>.
+   	First step is to create a directory:
    	<br/>
    	<b></b>&lt;icplayer&gt;/addons/MyAddon</b>
    	</p>
-   	<p>And then create <b>src</b> subfolder.
+   	<p>Then create the <b>src</b> subfolder.
    	
    	<h4>Step 2. Create addon files</h4>
    	
    	<p>Addon consists of:</p>
    	<ul>
    		<li>
-   			<b>addon.xml</b>  XML file which describes <a href="/doc/addon/model.html">addon model</a> 
-   			and metadata
+   			<b>addon.xml</b>  an XML file which describes the <a href="/doc/addon/model.html">addon model</a> 
+   			and its metadata
    		</li>
    		<li>
-   			<b>presenter.js</b>  Javascript file which implements 
-   			<a href="/doc/addon/presenter.html">addon functionality</a>
+   			<b>presenter.js</b> a Javascript file which implements 
+   			the <a href="/doc/addon/presenter.html">addon functionality</a>
    		</li>
-   		<li><b>view.html</b>  HTML view used in the player</li>
+   		<li><b>view.html</b> an HTML view used in the player</li>
    		<li><b>preview.html</b>  HTML preview used in the editor</li>
-   		<li><b>style.css</b>  CSS styles used by addon.</li>
+   		<li><b>style.css</b>  CSS styles used by the addon.</li>
    	</ul>
    	
    	<h4>Step 3. Register addon in ant build system</h4>
    	<p>
-   		Add task to build this addon in
+   		Add a task to build this addon in
    		<a href="https://github.com/icplayer/icplayer/blob/master/build.xml">
    		Addon ant build.xml
    		</a>
@@ -54,7 +54,7 @@
    	
    	<h4>Step 4. Register addon in player</h4>
    	<p>
-   		To register addon in the player (and editor). Modify
+   		To register the addon in the player (and the editor). Modify
    		<a href="https://github.com/icplayer/icplayer/blob/master/src/main/java/com/lorepo/icplayer/client/model/AddonDescriptorFactory.java">
    			AddonDescriptorFactory
    		</a>
@@ -65,7 +65,7 @@
    	
    	<h4>Step 5. Build player</h4>
    	<p>
-   	Now when you build player, your new addon will be added to player distribution
+   	After building the player, the new addon will be added to the player distribution
    	</p>
    		
 {% endblock %}
