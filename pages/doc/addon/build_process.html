@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<h1>Build process</h1>
+   	
+   	<p>
+   	Both Player itself and addons as whole are subject to specific testing and building process. To be more precise, either of them can be builded without successfully passing test phase. Player itself testing is standard Java unit testing. When it comes to Addons it needs some workspace preparing from developers.
+   	</p>
+   	 
+   	<h4>Step 1. Setting build properties</h4>
+   	
+   	<p>
+	Make a copy of <a href="https://github.com/icplayer/icplayer/blob/master/build-example.properties">build-example.properties</a> file and name it <b>build.properties</b>. Next change path to Google Web Toolkit SDK in newly created file accordingly to your local setup.
+   	</p>
+   	
+   	<h4>Step 2. Running jsTestDriver server</h4>
+   	
+   	<p>
+	Addons testing is based on <a href="https://code.google.com/p/js-test-driver">jsTestDriver</a> library. To start testing addons you need to do two things. First one is running jsTestDriver.jar file in server mode from <a href="https://github.com/icplayer/icplayer/tree/master/addons/tools">addons/tools</a> directory:
+	</p>
+	<p>
+   		<code>java -jar addons/tools/JsTestDriver.jar --port 9876</code>
+	</p>
+
+	<p>
+	When server is up and running you can open your browser and go to the following URL:
+	</p>
+	<p>
+   		<code>http://localhost:9876/capture</code>
+	</p>
+   	
+   	<h4>Step 3. Running build</h4>
+   	<p>	
+	Type <i><b>ant</b></i> in command line to run defaul build target which includes testing all of Player components. After successful build you are ready to work with Player!
+   	</p>
+   		
+{% endblock %}
