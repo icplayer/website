@@ -38,6 +38,7 @@
    		<li><b>view.html</b> an HTML view used in the player</li>
    		<li><b>preview.html</b>  HTML preview used in the editor</li>
    		<li><b>style.css</b>  CSS styles used by the addon.</li>
+   		<li><b>icon.png</b>  64x64 icon representing this addon in the editor.</li>
    	</ul>
    	
    	<h4>Step 3. Register addon in ant build system</h4>
@@ -48,7 +49,6 @@ registered addons list
    		</a>
    	</p>
    		
-   	
    	<h4>Step 4. Register addon in player</h4>
    	<p>
    		To register the addon in the player (and the editor). Modify
@@ -59,8 +59,17 @@ registered addons list
 	<p>
    		<code>addDescriptor("MyAddonId", "Addon name", "Editor menu group")</code>
    	</p>
+   		
+   	<h4>Step 5. Add addon description</h4>
+   	<p>
+   		Addon description text should be added to localization file:
+   		<a href="https://github.com/icplayer/icplayer/blob/master/src/main/java/com/lorepo/icplayer/public/libs/dictionary.js">
+   			dictionary.js
+   		</a>
+   		under key <b>&lt;addon_id&gt;_info</b>
+	</p>
    	
-   	<h4>Step 5. Build player</h4>
+   	<h4>Step 6. Build player</h4>
    	<p>
    	After building the player, the new addon will be added to the player distribution
    	</p>
