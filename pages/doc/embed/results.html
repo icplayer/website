@@ -2,14 +2,38 @@
 
 {% block content %}
   	<h1>Embedding player - Getting lesson results</h1>
+  	
+  	<p style="padding-top:2em">
+  		It is possible to get a lesson score using player API.
+  		Here is example code to showing how to do it.
+  	</p> 
+  	
 <pre class="prettyprint">
-    var player;
-    function icOnAppLoaded(){
-        player = icCreatePlayer(&apos;_icplayer&apos;);
-        player.load(&apos;content/default.ic.xml&apos;);
-    }
+	var player;
+	function icOnAppLoaded(){
+		player = icCreatePlayer(&apos;_icplayer&apos;);
+		player.load(&apos;content/default.ic.xml&apos;);
+	}
     
-    var ps = player.getPlayerServices();
+	function getLessonScore(){
+		var ps = player1.getPlayerServices();
+		var model = ps.getPresentation();
+		var scoreService = ps.getScore();
+		var sumOfScore = 0.0;
+		var count = 0;
+		for(var i = 0; i < model.getPageCount(); i++){
+			var page = model.getPage(i);
+			if(page.isReportable()){
+				count += 1;
+				var score = scoreService.getPageScore(page.getName());
+				var percentageScore = (score['score']*100.0)/score['maxScore']
+				sumOfScore += percentageScore; 
+			}
+		}
+		
+		var lessonScore = sumOfScore/count;
+		return lessonScore;
+	}
 </pre>
 
 	<h4>Remarks</h4>
