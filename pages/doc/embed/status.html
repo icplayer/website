@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Embedding player - listening to status changes</h1>
+
+<pre class="prettyprint">
+    var player;
+    function icOnAppLoaded(){
+        player = icCreatePlayer(&apos;_icplayer&apos;);
+        player.load(&apos;content/default.ic.xml&apos;);
+       	player.onStatusChanged(function(type, source, value){
+            console.log("type:" + type + ", source: " + source, ", value:" + value);
+       	});
+    }
+</pre>
+
+<div>
+	This status can be used to gather analytics data.
+</div>
+{% endblock %}

@@ -1,4 +1,26 @@
-{% extends "demo_base.html" %}
+{% extends "base.html" %}
 
-{%block demo_path%}dogs{%endblock%}
-{%block demo_title%}Dog breeds{%endblock%}
+{% block header %}    
+    <script type="text/javascript" language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" language="javascript" src="{{ STATIC_URL }}/icplayer/icplayer.nocache.js"></script>
+    <script type="text/javascript" language="javascript" src="http://www.matrobot.com/mra.js"></script>
+    
+    <script language="javascript">
+		var player;
+		var session = _mra_generate_session();
+      	function icOnAppLoaded(){
+	        // Load assessment
+    	    player = icCreatePlayer('_icplayer');
+	        player.load('{{ STATIC_URL }}/content/dogs/lesson.ic.xml');
+	        player.onStatusChanged(function(type, source, value){
+	            _mra_send('3001', session, source);
+	       	});
+      	}
+    </script>
+    
+{% endblock %}
+    
+{% block content %}
+   	<h1>Dog breeds</h1>
+	<div id="_icplayer"></div>
+{% endblock %}
