@@ -13,9 +13,29 @@
     	    player = icCreatePlayer('_icplayer');
 	        player.load('{{ STATIC_URL }}/content/dogs/lesson.ic.xml');
 	        player.onStatusChanged(function(type, source, value){
-	            _mra_send('3001', session, source);
+	        	var score = getCurrentLessonScore();
+	            _mra_send('3001', session, source, score);
 	       	});
       	}
+      	
+      	function getCurrentLessonScore(){
+    		var ps = player.getPlayerServices();
+    		var model = ps.getPresentation();
+    		var scoreService = ps.getScore();
+    		var sumOfScore = 0.0;
+    		var count = 0;
+    		for(var i = 0; i < model.getPageCount(); i++){
+    			var page = model.getPage(i);
+    			if(page.isReportable()){
+    				count += 1;
+    				var score = scoreService.getPageScore(page.getName());
+    				sumOfScore += score['score']/score['maxScore']; 
+    			}
+    		}
+    		
+    		var lessonScore = sumOfScore/count;
+    		return lessonScore;
+    	}
     </script>
     
 {% endblock %}
