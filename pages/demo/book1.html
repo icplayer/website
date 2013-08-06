@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "demo_base.html" %}
 
 {% block header %}    
     <script type="text/javascript" language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -8,9 +8,8 @@
 		var player;
       	function icOnAppLoaded(){
 	        // Load assessment
-    	    player = icCreatePlayer('_icplayer');
-    	    player.setAnalytics('TOc4g7A_SiOvjINoGTErg');
-	        player.load('{{ STATIC_URL }}/content/dogs/lesson.ic.xml');
+    	    player = icCreateBook('_icplayer');
+	        player.load('{{ STATIC_URL }}/content/book1/lesson.ic.xml');
       	}
     </script>
     
@@ -20,3 +19,4 @@
    	<h1>Dog breeds</h1>
 	<div id="_icplayer"></div>
 {% endblock %}
+
