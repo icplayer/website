@@ -2,3 +2,24 @@
 
 {%block demo_path%}full_demo{%endblock%}
 {%block demo_title%}Full demo{%endblock%}
+
+{% block header %}    
+    <script type="text/javascript" language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" language="javascript" src="{{ STATIC_URL }}/icplayer/icplayer.nocache.js"></script>
+    
+    <script language="javascript">
+		var player;
+      	function icOnAppLoaded(){
+	        // Load assessment
+    	    player = icCreatePlayer('_icplayer');
+    	    player.setAnalytics('KT21TuInR96hcCLDsQNAMQ');
+	        player.load('{{ STATIC_URL }}/content/full_demo/lesson.ic.xml');
+      	}
+    </script>
+    
+{% endblock %}
+    
+{% block content %}
+   	<h1>Full demo</h1>
+	<div id="_icplayer"></div>
+{% endblock %}
