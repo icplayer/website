@@ -75,6 +75,26 @@
         <td>getPage(index)</td>
         <td>Return page at given index.</td>
     </tr>
+    <tr>
+        <td>getTableOfContents()</td>
+        <td>
+        	Return hierarchical table of contents which consists of Chapters and Pages.
+        	Chapter has the following methods:
+        	<ul>
+        		<li>type - "chapter"</li>
+        		<li>getName() - Chapter name</li>
+        		<li>size() - number of chapter nodes</li>
+        		<li>get(index) - get node (Chapter or Page)</li>
+        	</ul>
+        	Page has the following methods:
+        	<ul>
+        		<li>type - "page"</li>
+        		<li>getName() - Page name</li>
+        		<li>getBaseURL() - URL base</li>
+        		<li>isReportable() - Return true if page is reportable</li>
+        	</ul>
+        </td>
+    </tr>
 </table>
     
 <h3>Page type</h3>
