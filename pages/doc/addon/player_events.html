@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Player Events</h1>
+
+<p>
+	Events send by player.
+</p>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Event name</th>
+        <th>Params</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>PageLoaded</td>
+        <td>
+            <ul>
+                <li>source - Page name</li>
+            </ul>
+        </td> 
+        <td>
+            Sent when new page is loaded by player.
+        </td> 
+    </tr>
+</table>
+
+                                                     
+{% endblock %}
