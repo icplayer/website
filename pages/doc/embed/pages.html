@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+  	<h1>Embedding player - loading subset of pages</h1>
+<pre class="prettyprint">
+    var player;
+    function icOnAppLoaded(){
+        player = icCreatePlayer(&apos;_icplayer&apos;);
+        // Set subset of pages before loading content
+        player.setPages('2,3,4');
+        player.load(&apos;content/default.ic.xml&apos;);
+    }  
+</pre>
+
+	<h4>Remarks</h4>
+	<ol>
+		<li>Pages should be set before content.</li>
+		<li>Argument for setPages() method should be string with page indexes separated with comma - otherwise IllegalArgumentException will be thrown.</li>
+		<li>State for presentation with subset of pages selected is incompatible with presentation with all pages.</li>
+	</ol>
+{% endblock %}
