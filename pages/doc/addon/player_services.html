@@ -208,7 +208,18 @@
         </td>
     </tr>
     <tr>
-        <td>getPageScore(pageName)</td>
+        <td>getPageScore(pageName) <b>(depreciated)</b></td>
+        <td>
+          Return score for a given page. The score is hashmap with values:
+              <ul>
+                 <li>score - actual score</li>
+                 <li>maxScore - max page score</li>
+                 <li>checkCount - how many times the check button was pressed on this page</li>
+                 <li>mistakeCount - total number of shown errors</li>
+        </td>
+    </tr>
+    <tr>
+        <td>getPageScoreById(pageId)</td>
         <td>
           Return score for a given page. The score is hashmap with values:
               <ul>
