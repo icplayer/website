@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+
+{% block content %}
+  	<h1>Embedding player - Using PlayerUtils wrapper</h1>
+  	
+  	<p style="padding-top:2em">
+  		We have prepared a wrapper object called PlayerUtils, which allows you to get all most important score details in few easy steps.
+		Here are two examples how to use it.
+  	</p> 
+  	
+<h4>Simple get score object</h4>	
+<pre class="prettyprint">
+	var player;
+	function icOnAppLoaded(){
+		player = icCreatePlayer('_icplayer');
+		player.load('content/default.ic.xml');
+		
+		player.onPageLoaded(function() {
+			var eventBus = player.getPlayerServices().getEventBus(),
+				listener = function() {},
+				utils = new PlayerUtils(player),
+				presentation = utils.getPresentation(),
+				scoreObject = utils.getPresentationScore(presentation);
+			
+			console.log(scoreObject);
+		});
+	}
+</pre>
+
+<h4>More complex example</h4>
+<p>
+	In this example you are listening for event ShowErrors, which is called when the user press Check or Submit button.
+	Then you check if was a first event ShowErrors fired on the current page. You can save the result to your database and let the user to correct his
+	eventual mistakes.
+</p>
+
+<pre class="prettyprint">
+	var player;
+	function icOnAppLoaded(){
+		player = icCreatePlayer('_icplayer');
+		player.load('content/default.ic.xml');
+
+		var checkCounter = {};
+		
+		player.onPageLoaded(function() {
+			var eventBus = player.getPlayerServices().getEventBus(),
+				listener = function() {},
+				utils = new PlayerUtils(player),
+				presentation = utils.getPresentation();
+			
+			listener.onEventReceived = function(eventName, eventData) {
+				var scoreObject = utils.getPresentationScore(presentation),
+					maxScore = scoreObject.maxScore,
+					score = scoreObject.score,
+					pageIndex = player.getPlayerServices().getCurrentPageIndex();
+				
+				if (!(pageIndex in checkCounter)) {
+					checkCounter[pageIndex] = 0;
+				}
+				
+				if (checkCounter[pageIndex] == 0) {
+					console.log('First Check. Save to Database.')
+					console.log(scoreObject.paginatedResult[pageIndex]);
+				} else {
+					console.log('Next Checks. Give more coins.')
+					console.log(scoreObject.paginatedResult[pageIndex]);
+				}
+				
+				checkCounter[pageIndex]++;
+			}
+			
+			eventBus.addEventListener('ShowErrors', listener);
+			
+		});
+	}
+</pre>
+
+	<h4>Remarks</h4>
+	<ol>
+		<li>
+			Check also <a href="/doc/addon/player_services.html">PlayerService</a> functions.
+			Especially section with score functions.
+		</li>
+	</ol>
+{% endblock %}
