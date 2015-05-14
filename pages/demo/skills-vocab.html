@@ -1,0 +1,28 @@
+{% extends "demo_base.html" %}
+
+{% block header %}    
+    <script type="text/javascript" language="javascript" src="{{ STATIC_URL }}/javascript/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" language="javascript" src="{{ STATIC_URL }}/icplayer/icplayer.nocache.js"></script>
+    
+    <script language="javascript">
+		var player;
+      	function icOnAppLoaded(){
+	        // Load assessment
+    	    player = icCreatePlayer('_icplayer');
+	        player.load("{{ STATIC_URL }}/content/skills-vocab/pages/main.xml");
+      	}
+    </script>
+
+<script type="text/javascript" 
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+
+
+    
+{% endblock %}
+    
+{% block content %}
+   	<h1>English Language Skills Vocabulary</h1>
+	<div id="_icplayer"></div>
+{% endblock %}
+
